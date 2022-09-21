@@ -37,21 +37,20 @@ const SlideItm = styled.div`
 `
 
 const Dots = styled.ul`
-   display: flex;
-    gap: 10px
+    display: flex;
+    gap: 10px;
     position: absolute;
     top: 100px;
-   left: 50%;
-   margin: 0 0 0 -585px;
+    left: 50%;
+    margin: 0 0 0 -585px;
     li {
-     width: 20px;
-     height: 20px;
-     background: #ddd;
-
-     &.on {
-        background: tomato;
+        width: 20px;
+        height: 20px;
+        background: #ddd;
+        &.on {
+            background: tomato;
+        }
     }
-  }
 `
 
 const Arrows = styled.div`
