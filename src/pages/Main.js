@@ -2,12 +2,13 @@ import React from 'react'
 import MainVisual from './MainVisual';
 import MainContent from './MainContent';
 import Customer from './Customer';
+import '../css/Main.scss'
 
-const Main = () => {
+const Main = ({content}) => {
     return (
         <main className='Main'>
-            <MainVisual />
-            <MainContent />
+            <MainVisual word={content}/>
+            <MainContent word={content}/>
             <Customer />
         </main>
     )

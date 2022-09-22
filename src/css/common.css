@@ -34,7 +34,9 @@ body {
     font-weight: normal;
     line-height: 1;
     letter-spacing: -0.025em;
-    color: #444444;
+    color: #222222;
+    white-space: pre-wrap;
+    word-break: keep-all;
 }
 
 ul,
@@ -60,6 +62,10 @@ figure {
     padding: 0;
     font-size: inherit;
     font-weight: inherit;
+}
+
+p {
+    line-height: 1.45;
 }
 
 a {
