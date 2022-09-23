@@ -1,8 +1,19 @@
-import React from 'react'
+import Articl from "./Articl"
+import Aside from "./Aside"
+import '../css/Subpage.scss'
 
-const Board = () => {
+const Board = ({ content }) => {
+  const num = 0;
   return (
-    <div>Board</div>
+    <div className="Subpage">
+      <div className="nav-bar">
+        <div className="inner">{conent[num].tit} / {conent[0].tit}</div>
+      </div>
+      <div className="inner sub">
+        <Articl content={content} num={num} />
+        <Aside />
+      </div>
+    </div>
   )
 }
 
